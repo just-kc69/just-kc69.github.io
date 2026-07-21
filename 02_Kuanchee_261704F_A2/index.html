@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHICKENS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+	<button id="ham_menu">Open Menu</button>
+	<div class="ham_hidden">
+		<button id="homeBtn">Home</button>
+		<button id="historyBtn">History</button>
+		<button id="typesBtn">Types</button>
+		<button id="dishesBtn">Dishes</button>
+		<button id="gameBtn">Mini-Game</button>
+		<button id="refreshBtn">Refresh site</button>
+	</div>
+  </nav>
+
+  <!-- Home Page -->
+  <section id="home" class="page active">
+	<div class="home_style">
+		<h1>Welcome to the World of Chickens 🐔</h1>
+		<p>This web app will teach you about some stuff chickens: their history, 
+		   the different types of breeds, and delicious chicken dishes enjoyed worldwide.</p>
+		<p>Explore the sections using the navigation above, and don’t forget to try the 
+		   <strong>Chicken Quiz Challenge</strong> mini-game to test your knowledge!</p>
+			<div class="card">
+				<img src="images/holychickens.jpg" alt="holychickens" class="img">
+			</div>
+			<div class="card">
+				<img src="images/UniqueChick.jpg" alt="unique" class="img">
+			</div>
+			<div class="card">
+				<img src="images/ChickenHist.jpg" alt="chickhist" class="img">
+			</div>
+	</div>
+  </section>
+
+ <!-- History Section -->
+<section id="history" class="page">
+	<h2>History of Chickens</h2>
+		<div class="history_style">
+			<div class="history_card">
+				<img src="images/redchicken.jpg" alt="redchicken">
+					<h3>Origin</h3>
+						<p>Chickens were first domesticated from the red junglefowl in Southeast Asia 
+						around 8,000 years ago. Archaeological evidence suggests early farmers 
+						bred them for eggs and meat, and their spread through India and China 
+						marked the beginning of poultry farming.</p>
+			</div>
+			<div class="history_card">
+				<img src="images/feedchicken.jpg" alt="feedchicken">
+					<h3>Ancient Roman Times</h3>
+						<p>In ancient times, chickens were valued for more than food. They appeared 
+						in myths and rituals — the Romans used them for divination, while Greeks 
+						saw them as symbols of courage. Their crowing was believed to ward off evil 
+						and announce the dawn of new beginnings.</p>
+			</div>
+			<div class="history_card">
+					<img src="images/ancientegypt.png" alt="ancient">
+						<h3>Egyptian Folklore</h3>
+							<p>In Egyptian folklore, roosters were linked to the sun god Ra. Chickens and 
+							eggs were offered in temples as symbols of fertility and renewal. Tomb 
+							paintings depicted chickens as sustenance for the afterlife, and Egyptians 
+							even built clay incubators to hatch thousands of chicks for rituals.</p>
+			</div>
+			<div class="history_card">	
+				<img src="images/chickenfarm.jpg" alt="modernchick">
+					<h3>Today's Agriculture</h3>
+						<p>Finally in today's day and age, chickens are the most numerous domestic animal worldwide. Selective 
+						breeding has produced hundreds of varieties suited for egg or meat production. 
+						Modern poultry farming combines ancient practices with technology to feed 
+						billions globally.</p>
+			</div>
+		</div>
+</section>
+
+<!-- Types Section -->
+<section id="types" class="page">
+  <h2>Types of Chickens 🐓</h2>
+  <p>Chickens come in hundreds of breeds worldwide, but they’re often grouped by their primary purpose. Here are the main categories:</p>
+  <ul>
+    <li><strong>Layers:</strong> 
+      These breeds are prized for their egg-laying ability.
+      <div class="image-grid">
+        <div class="type_card">
+          <img src="images/leghorn.jpg" alt="Leghorn Chicken">
+          <h3>Leghorn</h3>
+          <p>Up to 300 eggs/year, hardy and active.</p>
+        </div>
+        <div class="type_card">
+          <img src="images/ancona.jpg" alt="Ancona Chicken">
+          <h3>Ancona</h3>
+          <p>Hardy Mediterranean breed, lays white eggs.</p>
+        </div>
+        <div class="type_card">
+          <img src="images/australorp.jpg" alt="Australorp Chicken">
+          <h3>Australorp</h3>
+          <p>World record holder: 364 eggs in one year.</p>
+        </div>
+      </div>
+    </li>
+
+    <li><strong>Broilers:</strong> 
+      Bred for rapid growth and meat production.
+      <div class="image-grid">
+        <div class="type_card">
+          <img src="images/cornishcross.jpg" alt="Cornish Cross Chicken">
+          <h3>Cornish Cross</h3>
+          <p>Fast-growing, commercial meat bird, market-ready in 6–8 weeks.</p>
+        </div>
+        <div class="type_card">
+          <img src="images/freedomranger.jpg" alt="Freedom Ranger Chicken">
+          <h3>Freedom Ranger</h3>
+          <p>Slower growth, richer flavor, natural foraging behavior.</p>
+        </div>
+      </div>
+    </li>
+
+    <li><strong>Dual-purpose:</strong> 
+      Balanced breeds that provide both eggs and meat.
+      <div class="image-grid">
+        <div class="type_card">
+          <img src="images/plymouthrock.jpg" alt="Plymouth Rock Chicken">
+          <h3>Plymouth Rock</h3>
+          <p>Reliable egg layers and good table birds.</p>
+        </div>
+        <div class="type_card">
+          <img src="images/sussex.jpg" alt="Sussex Chicken">
+          <h3>Sussex</h3>
+          <p>Friendly, versatile, steady egg production.</p>
+        </div>
+      </div>
+    </li>
+
+    <li><strong>Ornamental:</strong> 
+      Raised mainly for their beauty and unique traits.
+      <div class="image-grid">
+        <div class="type_card">
+          <img src="images/silkie.jpg" alt="Silkie Chicken">
+          <h3>Silkie</h3>
+          <p>Fluffy feathers, gentle temperament, popular as pets.</p>
+        </div>
+        <div class="type_card">
+          <img src="images/polish.jpg" alt="Polish Chicken">
+          <h3>Polish</h3>
+          <p>Dramatic feather crest, exhibition bird, quirky personality.</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <p>Each type reflects how humans have shaped chickens for farming, cuisine, or companionship. From the hardworking <em>layers</em> to the show-stopping <em>ornamentals</em>, chickens are as diverse as the cultures that raise them.</p>
+</section>
+
+
+
+<!-- Dishes Section -->
+<section id="dishes" class="page">
+  <div class="dishes_style">
+    <h2>Chicken Dishes Around the World 🍗</h2>
+    <p>Chicken is one of the most popular meats globally, featured in countless traditional dishes. Here are some highlights:</p>
+
+    <div class="dish_card">
+      <img src="images/chickenrice.jpg" alt="Hainanese Chicken Rice">
+      <h3>Hainanese Chicken Rice (Singapore)</h3>
+      <p>Poached chicken served with fragrant rice, chili sauce, and ginger paste. A national comfort food.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/butterchicken.jpg" alt="Butter Chicken">
+      <h3>Butter Chicken (India)</h3>
+      <p>Tender chicken in a creamy tomato-butter sauce, beloved worldwide.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/chickenkarahi.jpg" alt="Chicken Karahi">
+      <h3>Chicken Karahi (Pakistan)</h3>
+      <p>Wok-style chicken cooked with tomatoes, chilies, and spices, often served sizzling hot.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/koreanfried.jpg" alt="Korean Fried Chicken">
+      <h3>Korean Fried Chicken (Korea)</h3>
+      <p>Double-fried for extra crispiness, coated in spicy-sweet glaze.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/polloalabrasa.jpg" alt="Pollo a la Brasa">
+      <h3>Pollo a la Brasa (Peru)</h3>
+      <p>Charcoal-roasted chicken marinated with spices, served with fries and sauces.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/inasal.jpg" alt="Inasal na Manok">
+      <h3>Inasal na Manok (Philippines)</h3>
+      <p>Grilled chicken marinated in vinegar, calamansi, and lemongrass.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/friedchicken.jpg" alt="Southern Fried Chicken">
+      <h3>Southern Fried Chicken (USA)</h3>
+      <p>Crispy, seasoned, and golden brown — a comfort food classic.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/coqauvin.jpg" alt="Coq au Vin">
+      <h3>Coq au Vin (France)</h3>
+      <p>Chicken braised with wine, mushrooms, and herbs, a rustic French staple.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/yakitori.jpg" alt="Yakitori">
+      <h3>Yakitori (Japan)</h3>
+      <p>Skewered chicken grilled over charcoal, brushed with tare sauce.</p>
+    </div>
+
+    <div class="dish_card">
+      <img src="images/mole.jpg" alt="Pollo en Mole">
+      <h3>Pollo en Mole (Mexico)</h3>
+      <p>Chicken simmered in a rich chocolate-chili sauce, blending sweet and savory.</p>
+    </div>
+
+    <p>These dishes show how chicken adapts to different cultures, flavors, and cooking styles — from street food to fine dining.</p>
+  </div>
+</section>
+
+  <!-- Mini-Game Section -->
+<section id="game" class="page">
+	<div class="game_style">
+		<h2>Chicken Quiz Game</h2>
+		<div id="quiz"></div>
+			<div id="feedbackForm">
+				<h3>Feedback</h3>
+
+					<!-- Text input -->
+					<label for="nameInput">Your Name:</label><br>
+					<input id="nameInput" type="text" required><br><br>
+
+					<!-- Email input -->
+					<label for="emailInput">Email:</label><br>
+					<input id="emailInput" type="email" required><br><br>
+
+					<!-- Checkbox group -->
+					<p>Which parts did you enjoy?</p>
+						<input id="cb1" type="checkbox">
+						<label for="cb1">History Section</label><br>
+						<input id="cb2" type="checkbox">
+						<label for="cb2">Types Section</label><br>
+						<input id="cb3" type="checkbox">
+						<label for="cb3">Dishes Section</label><br><br>
+
+					<!-- Radio group -->
+					<p>Would you recommend this site?</p>
+						<input id="yes" type="radio" name="recommend">
+						<label for="yes">Yes</label><br>
+						<input id="no" type="radio" name="recommend">
+						<label for="no">No</label><br><br>
+
+						<!-- Dropdown -->
+						<label for="favDish">Favorite Chicken Dish:</label><br>
+						<select id="favDish">
+							<option>Hainanese Chicken Rice</option>
+							<option>Chicken Tikka</option>
+							<option>Yakitori</option>
+						</select><br><br>
+
+						<!-- Comments -->
+						<label for="feedbackText">Comments:</label><br>
+						<textarea id="feedbackText" rows="4" cols="40" required></textarea><br><br>
+
+						<!-- Custom button (not type="submit") -->
+						<button id="feedbackBtn">Submit Feedback</button>
+	  <img id="chickIcon" src="images/chickIcon.jpg" alt="ChickenIcon">
+			</div>
+	</div>
+</section>
+	<footer id="footer">
+		<div class="footer_top">
+			<div class="info_links">
+				<h3>Information Sources</h3>
+					<ul>
+						<li><a href="https://en.wikipedia.org/wiki/Chicken" target="_blank">Wikipedia – Chicken</a></li>
+						<li><a href="https://livestock.extension.wisc.edu/articles/origin-and-history-of-the-chicken/" target="_blank">Origin and History of the Chicken</a></li>
+						<li><a href="https://www.birdsnews.com/types-of-chickens/" target="_blank">Birds News – Types of Chickens</a></li>
+						<li><a href="https://www.wikihow.com/Choose-Chicken-Breeds" target="_blank">WikiHow – Chicken Breeds</a></li>
+						<li><a href="https://www.backyardchickens.com/breeds/" target="_blank">Backyard Chickens – Breed Database</a></li>
+						<li><a href="https://www.tasteatlas.com/chicken-dishes" target="_blank">TasteAtlas – Chicken Dishes</a></li>
+						<li><a href="https://www.seriouseats.com/chicken-recipes-5117985" target="_blank">Serious Eats – Chicken Recipes</a></li>
+						<li><a href="https://whatshouldicookwithchicken.com/" target="_blank">What Should I Cook With Chicken</a></li>
+					</ul>
+			</div>		
+			<div class="QRcode">
+				<img src="images/qrcode.png" alt="qr code" class="img">
+			</div>
+			<div class="footer_logo">
+				<span class="sprite logo"></span>
+			</div>
+		</div>
+			<p class="footer_ink">© 2026 Chicken Website | Made by kc</p>
+	</footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+	
